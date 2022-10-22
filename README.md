@@ -4,6 +4,36 @@
 
 You can test the rest API's locally using the below curl commands.
 
+1. To get the list of users:
+```
+curl --location --request GET 'http://localhost:8081/users'
+```
+
+2. Create user:
+```
+curl --location --request POST 'http://localhost:8081/users' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "userName": "user 7",
+    "userEmail": "user7@gmail.com"
+}
+```
+
+3. Update user
+```
+curl --location --request PUT 'http://localhost:8081/users/10' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "userName": "user 7",
+    "userEmail": "user07@gmail.com"
+}'
+```
+
+4. Delete user
+```
+curl --location --request DELETE 'http://localhost:8081/users/10' \
+--data-raw ''
+```
 
  
 ## Working with Spring Boot RestApi
@@ -11,6 +41,9 @@ You can test the rest API's locally using the below curl commands.
 ### Prerequisites
 The following items should be installed in your system:
 * Spring Tool Suite or any of your favourite tool
+* MySQL server & MySql workbench
+* Git
+* Maven
 
 
 ### Technology Used:     
