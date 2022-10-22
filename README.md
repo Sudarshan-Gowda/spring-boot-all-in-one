@@ -17,7 +17,7 @@ The following items should be installed in your system:
   Java 8                                                                                                                                
   Spring Boot & Spring Framework                                                                                                                           
   JPA & Hibernate     
-  Junit and Mockito
+  Junit and Mockito    
   Sonarqube                                                                                                                  
                                                                                                                            
  
