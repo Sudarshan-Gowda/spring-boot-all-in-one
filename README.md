@@ -74,7 +74,7 @@ git checkout Sonaqube-scanning-using-properties-file
 ### To Run the Spring Boot Application:
 `step 1`: Download this repository & do maven import.    
 `step 2`: Go to the main class file and run as Spring boot application. <br>
-`step 3`: Once the application is successfully started, It can be accessed by using url `http://localhost:8080`
+`step 3`: Once the application is successfully started, It can be accessed by using url `http://localhost:8081`
 
 ## Steps to Setup and run the Sonaqube reports:
 There are multiple sites available in the Internet to download and setup the sonarqube. 
