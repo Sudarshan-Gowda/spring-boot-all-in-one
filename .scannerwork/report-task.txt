@@ -1,0 +1,6 @@
+projectKey=spring-boot-all-in-one
+serverUrl=http://localhost:9000
+serverVersion=9.6.1.59531
+dashboardUrl=http://localhost:9000/dashboard?id=spring-boot-all-in-one
+ceTaskId=AYP_Wm9E8RDEnOpQ8-9T
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYP_Wm9E8RDEnOpQ8-9T
